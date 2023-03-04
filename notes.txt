@@ -1,0 +1,6 @@
+TO DO:
+
+Automate adding text to Cell AB1
+Create Script for Lineup Edits after submission. 
+
+Create Directories for the Different Sports i Play NFL, CFB and MLB. 
