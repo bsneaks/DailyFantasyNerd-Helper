@@ -16,8 +16,8 @@ pandas
 
 
 Steps
-1) Download your lineups to CSV from DailyFantasyNerd after making your tweaks and optimizations. 
-2) Download the Fanduel .csv template
+1) Download your lineups to CSV from DailyFantasyNerd as DAILYFANTASYNERD-NBA.csv after making your tweaks and optimizations. 
+2) Download the Fanduel .csv template as FANDUEL-NBA.csv
 3) Add text to Cell AB1 in the Fanduel CSV
 4) Remove any Lineups you do not want. 
 5) Upload the lineups into Fanduel from the DAILYFANTASYNERD-NBA.csv 

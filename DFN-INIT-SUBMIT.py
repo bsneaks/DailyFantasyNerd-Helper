@@ -9,6 +9,7 @@ with open('DAILYFANTASYNERD-NBA.csv', 'r') as file:
     content = file.read()
 with open('DAILYFANTASYNERD-NBA.csv', 'w') as file:
     file.write(','.join(new_row_columns) + '\n' + content)
+    file.seek(0)
 
 df1 = pd.read_csv("FANDUEL-NBA.csv")
 df2 = pd.read_csv("DAILYFANTASYNERD-NBA.csv")
@@ -19,7 +20,7 @@ first_five_digits = re.search(pattern, cell_value).group(1)
 
 columns_to_append = ['PG', 'PG.1', 'SG', 'SG.1', 'SF', 'SF.1', 'PF', 'PF.1', 'C']
 for col in columns_to_append:
-    df2[col] = df2[col].apply(lambda x: first_five_digits + '-' + str(x) if isinstance(x, (str, int, float)) else x)
+    df2[col] = df2[col].apply(lambda x: first_five_digits + '-' + str(x) if isinstance(x, (int, float)) and not pd.isna(x) else x)
 
 new_columns = ['PG', 'PG', 'SG', 'SG', 'SF', 'SF', 'PF', 'PF', 'C']
 df2.columns = new_columns
