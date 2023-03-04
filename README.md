@@ -2,10 +2,10 @@
 
 Scripts to assist with Daily Fantasy nerd to save time submitting and modifying lineups eliminating the neeed to do vlookups
 
-When Downloading the Fanduel CSV for NBA it must be renamed FANDUEL-NBA.csv, and the DFN Lineups must be saved as DAILYFANTASYNERD-NBA.csv. It honestly doesnt matter what you save it as as long as the csv title matches the code but i built this 
-for NBA for now.
+When Downloading the Fanduel CSV for NBA it must be renamed FANDUEL-NBA.csv, and the DFN Lineups must be saved as DAILYFANTASYNERD-NBA.csv. 
  
 Future Directories specific for NBA, NFL, MLB and CFB will be added.
+Will also be adding scripts to update lineups already submitted
 
 
 Dependencies
